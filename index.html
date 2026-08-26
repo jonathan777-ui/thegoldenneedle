@@ -71,7 +71,7 @@
   nav a{font-size:0.76rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--ivory-dim); position:relative; padding-bottom:4px;}
   nav a::after{content:''; position:absolute; left:0; bottom:0; width:0; height:1px; background:var(--gold-bright); transition:width 0.3s ease;}
   nav a:hover::after{width:100%;}
-  nav a:hover{color:var(--ivory);} 
+  nav a:hover{color:var(--ivory);}
   .nav-toggle{display:none;}
   .btn{
     display:inline-flex; align-items:center; gap:8px; padding:13px 26px;
@@ -79,7 +79,7 @@
     border:1px solid var(--gold); color:var(--ivory); transition:all 0.3s ease;
   }
   .btn.solid{background:var(--gold); border-color:var(--gold); color:#100E08; font-weight:600;}
-  .btn.solid:hover{background:var(--gold-bright); border-color:var(--gold-bright);} 
+  .btn.solid:hover{background:var(--gold-bright); border-color:var(--gold-bright);}
   .btn.ghost:hover{border-color:var(--gold-bright); color:var(--gold-bright);}
 
   /* hero */
@@ -89,12 +89,12 @@
       var(--obsidian);
   }
   .hero-grid{display:grid; grid-template-columns:1.05fr 0.95fr; gap:56px; align-items:center;}
-  .hero h1{font-size:clamp(2.4rem,4.6vw,3.6rem); line-height:1.05; color:var(--ivory);} 
-  .hero h1 em{font-style:italic; color:var(--gold-bright);} 
+  .hero h1{font-size:clamp(2.4rem,4.6vw,3.6rem); line-height:1.05; color:var(--ivory);}
+  .hero h1 em{font-style:italic; color:var(--gold-bright);}
   .hero p.sub{font-size:1.05rem; color:var(--ivory-dim); max-width:460px; margin:20px 0 34px; line-height:1.65;}
   .cta-row{display:flex; gap:16px; flex-wrap:wrap;}
   .hero-facts{display:flex; gap:28px; margin-top:44px; flex-wrap:wrap;}
-  .hero-facts .f-num{font-family:'Bodoni Moda', serif; font-size:1.5rem; color:var(--gold-bright);} 
+  .hero-facts .f-num{font-family:'Bodoni Moda', serif; font-size:1.5rem; color:var(--gold-bright);}
   .hero-facts .f-lbl{font-size:0.68rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--ivory-dim); margin-top:2px;}
 
   .frame{
@@ -110,106 +110,106 @@
   /* marquee strip */
   .marquee{border-top:1px solid var(--line); border-bottom:1px solid var(--line); background:var(--panel); overflow:hidden; padding:16px 0;}
   .marquee-track{display:flex; gap:40px; white-space:nowrap; animation:scroll 32s linear infinite; width:max-content;}
-  .marquee-track span{font-family:'Bodoni Moda', serif; font-style:italic; font-size:1rem; color:var(--ivory-dim);} 
+  .marquee-track span{font-family:'Bodoni Moda', serif; font-style:italic; font-size:1rem; color:var(--ivory-dim);}
   .marquee-track span.dot{color:var(--gold); font-style:normal;}
   @keyframes scroll{from{transform:translateX(0);} to{transform:translateX(-50%);}}
 
   section{padding:110px 0;}
   .section-head{max-width:600px; margin-bottom:52px;}
-  .section-head h2{font-size:clamp(1.9rem,3.6vw,2.7rem); color:var(--ivory);} 
+  .section-head h2{font-size:clamp(1.9rem,3.6vw,2.7rem); color:var(--ivory);}
 
   /* styles grid */
-  .styles-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:2px; border:1px solid var(--line);} 
+  .styles-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:2px; border:1px solid var(--line);}
   .style-card{position:relative; aspect-ratio:1/1; border:1px solid var(--line); overflow:hidden;}
   .style-card .bg{position:absolute; inset:0;}
   .style-card .cap{position:absolute; left:20px; bottom:18px; z-index:1;}
-  .style-card .cap h3{font-size:1.15rem; color:var(--ivory);} 
-  .style-card .cap p{margin:4px 0 0; font-size:0.8rem; color:var(--ivory-dim);} 
-  .sc-1 .bg{background:radial-gradient(circle at 30% 20%,#2a2620,#0c0b09 72%);} 
-  .sc-2 .bg{background:radial-gradient(circle at 70% 30%,#2c2412,#0c0a07 72%);} 
-  .sc-3 .bg{background:radial-gradient(circle at 40% 80%,#241f14,#0b0a08 72%);} 
-  .sc-4 .bg{background:radial-gradient(circle at 60% 60%,#25201a,#0b0a08 72%);} 
-  .sc-5 .bg{background:radial-gradient(circle at 50% 40%,#282211,#0b0a08 72%);} 
-  .sc-6 .bg{background:radial-gradient(circle at 20% 70%,#20200f,#0a0908 72%);} 
+  .style-card .cap h3{font-size:1.15rem; color:var(--ivory);}
+  .style-card .cap p{margin:4px 0 0; font-size:0.8rem; color:var(--ivory-dim);}
+  .sc-1 .bg{background:radial-gradient(circle at 30% 20%,#2a2620,#0c0b09 72%);}
+  .sc-2 .bg{background:radial-gradient(circle at 70% 30%,#2c2412,#0c0a07 72%);}
+  .sc-3 .bg{background:radial-gradient(circle at 40% 80%,#241f14,#0b0a08 72%);}
+  .sc-4 .bg{background:radial-gradient(circle at 60% 60%,#25201a,#0b0a08 72%);}
+  .sc-5 .bg{background:radial-gradient(circle at 50% 40%,#282211,#0b0a08 72%);}
+  .sc-6 .bg{background:radial-gradient(circle at 20% 70%,#20200f,#0a0908 72%);}
 
   /* artists */
-  .artists{background:var(--panel); border-top:1px solid var(--line); border-bottom:1px solid var(--line);} 
-  .artist-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:34px;} 
-  .artist-card .frame{aspect-ratio:3/4; margin-bottom:18px;} 
-  .artist-card h3{font-size:1.2rem; color:var(--ivory);} 
-  .artist-card .spec{font-size:0.7rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--gold-bright); margin:6px 0 10px;} 
+  .artists{background:var(--panel); border-top:1px solid var(--line); border-bottom:1px solid var(--line);}
+  .artist-grid{display:grid; grid-template-columns:repeat(3,1fr); gap:34px;}
+  .artist-card .frame{aspect-ratio:3/4; margin-bottom:18px;}
+  .artist-card h3{font-size:1.2rem; color:var(--ivory);}
+  .artist-card .spec{font-size:0.7rem; letter-spacing:0.08em; text-transform:uppercase; color:var(--gold-bright); margin:6px 0 10px;}
   .artist-card p{font-size:0.9rem; color:var(--ivory-dim); line-height:1.55; margin:0;}
 
   /* artist-match process */
-  .match-grid{display:grid; grid-template-columns:1fr auto 1fr auto 1fr auto 1fr; gap:18px; align-items:stretch;} 
-  .match-card{border:1px solid var(--line); padding:26px 22px; background:var(--panel);} 
-  .match-tag{font-size:0.66rem; letter-spacing:0.14em; text-transform:uppercase; color:var(--gold-bright); margin-bottom:12px;} 
-  .match-card h3{font-size:1.02rem; color:var(--ivory); line-height:1.3;} 
-  .match-card p{font-size:0.86rem; color:var(--ivory-dim); line-height:1.55; margin:10px 0 0;} 
+  .match-grid{display:grid; grid-template-columns:1fr auto 1fr auto 1fr auto 1fr; gap:18px; align-items:stretch;}
+  .match-card{border:1px solid var(--line); padding:26px 22px; background:var(--panel);}
+  .match-tag{font-size:0.66rem; letter-spacing:0.14em; text-transform:uppercase; color:var(--gold-bright); margin-bottom:12px;}
+  .match-card h3{font-size:1.02rem; color:var(--ivory); line-height:1.3;}
+  .match-card p{font-size:0.86rem; color:var(--ivory-dim); line-height:1.55; margin:10px 0 0;}
   .match-arrow{display:flex; align-items:center; justify-content:center; color:var(--gold); font-size:1.1rem; opacity:0.7;}
 
   /* gallery */
-  .gallery{background:var(--obsidian);} 
-  .gal-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:2px; border:1px solid var(--line);} 
-  .gal-grid .frame{border-radius:0; aspect-ratio:3/4;} 
+  .gallery{background:var(--obsidian);}
+  .gal-grid{display:grid; grid-template-columns:repeat(4,1fr); gap:2px; border:1px solid var(--line);}
+  .gal-grid .frame{border-radius:0; aspect-ratio:3/4;}
   .work-note{margin-top:22px; font-size:0.8rem; color:var(--ivory-dim); font-style:italic; font-family:'Bodoni Moda', serif;}
 
   /* social proof */
-  .social{background:var(--panel-2); border-top:1px solid var(--line); border-bottom:1px solid var(--line); text-align:center;} 
-  .social h2{font-size:clamp(1.8rem,4vw,2.6rem); color:var(--ivory); max-width:640px; margin:0 auto 20px;} 
+  .social{background:var(--panel-2); border-top:1px solid var(--line); border-bottom:1px solid var(--line); text-align:center;}
+  .social h2{font-size:clamp(1.8rem,4vw,2.6rem); color:var(--ivory); max-width:640px; margin:0 auto 20px;}
   .social p{color:var(--ivory-dim); max-width:520px; margin:0 auto 30px; font-size:1rem; line-height:1.6;}
 
   /* pricing */
-  .price-table{border:1px solid var(--line);} 
-  .price-row{display:flex; justify-content:space-between; align-items:center; padding:20px 26px; border-bottom:1px solid var(--line); gap:20px;} 
-  .price-row:last-child{border-bottom:none;} 
-  .price-row .name{font-family:'Bodoni Moda', serif; font-size:1.05rem; color:var(--ivory);} 
-  .price-row .desc{font-size:0.82rem; color:var(--ivory-dim); margin-top:3px;} 
-  .price-row .amt{font-family:'Bodoni Moda', serif; font-size:1.15rem; color:var(--gold-bright); white-space:nowrap;} 
+  .price-table{border:1px solid var(--line);}
+  .price-row{display:flex; justify-content:space-between; align-items:center; padding:20px 26px; border-bottom:1px solid var(--line); gap:20px;}
+  .price-row:last-child{border-bottom:none;}
+  .price-row .name{font-family:'Bodoni Moda', serif; font-size:1.05rem; color:var(--ivory);}
+  .price-row .desc{font-size:0.82rem; color:var(--ivory-dim); margin-top:3px;}
+  .price-row .amt{font-family:'Bodoni Moda', serif; font-size:1.15rem; color:var(--gold-bright); white-space:nowrap;}
   .price-note{margin-top:18px; font-size:0.78rem; color:var(--ivory-dim); font-style:italic;}
 
   /* visit */
-  .visit{background:var(--panel); border-top:1px solid var(--line);} 
-  .visit-grid{display:grid; grid-template-columns:1fr 1fr; gap:60px;} 
-  .detail-row{display:flex; gap:16px; padding:16px 0; border-bottom:1px solid var(--line);} 
-  .detail-row .k{width:110px; flex-shrink:0; font-size:0.68rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--gold-bright); padding-top:2px;} 
-  .detail-row .v{font-size:0.98rem; color:var(--ivory-dim); line-height:1.5;} 
-  .book-panel{border:1px solid var(--gold); padding:38px;} 
-  .book-panel h3{font-size:1.4rem; margin-bottom:10px;} 
-  .book-panel p{color:var(--ivory-dim); font-size:0.92rem; line-height:1.6; margin:0 0 24px;} 
-  .book-panel .btn{width:100%; justify-content:center; margin-top:0;} 
+  .visit{background:var(--panel); border-top:1px solid var(--line);}
+  .visit-grid{display:grid; grid-template-columns:1fr 1fr; gap:60px;}
+  .detail-row{display:flex; gap:16px; padding:16px 0; border-bottom:1px solid var(--line);}
+  .detail-row .k{width:110px; flex-shrink:0; font-size:0.68rem; letter-spacing:0.1em; text-transform:uppercase; color:var(--gold-bright); padding-top:2px;}
+  .detail-row .v{font-size:0.98rem; color:var(--ivory-dim); line-height:1.5;}
+  .book-panel{border:1px solid var(--gold); padding:38px;}
+  .book-panel h3{font-size:1.4rem; margin-bottom:10px;}
+  .book-panel p{color:var(--ivory-dim); font-size:0.92rem; line-height:1.6; margin:0 0 24px;}
+  .book-panel .btn{width:100%; justify-content:center; margin-top:0;}
   .book-panel .btn + .btn{margin-top:12px;}
 
-  footer{border-top:1px solid var(--line); padding:44px 0 30px; background:var(--obsidian);} 
-  footer .wrap{display:flex; justify-content:space-between; flex-wrap:wrap; gap:20px; align-items:flex-end;} 
-  footer .fmark{font-family:'Bodoni Moda', serif; font-size:1.05rem;} 
-  footer .fine{font-size:0.74rem; color:var(--ivory-dim); margin-top:6px;} 
-  footer .flinks{display:flex; gap:20px;} 
-  footer .flinks a{font-size:0.76rem; color:var(--ivory-dim);} 
-  footer .flinks a:hover{color:var(--gold-bright);} 
+  footer{border-top:1px solid var(--line); padding:44px 0 30px; background:var(--obsidian);}
+  footer .wrap{display:flex; justify-content:space-between; flex-wrap:wrap; gap:20px; align-items:flex-end;}
+  footer .fmark{font-family:'Bodoni Moda', serif; font-size:1.05rem;}
+  footer .fine{font-size:0.74rem; color:var(--ivory-dim); margin-top:6px;}
+  footer .flinks{display:flex; gap:20px;}
+  footer .flinks a{font-size:0.76rem; color:var(--ivory-dim);}
+  footer .flinks a:hover{color:var(--gold-bright);}
 
-  .reveal{opacity:0; transform:translateY(16px); transition:opacity 0.7s ease, transform 0.7s ease;} 
+  .reveal{opacity:0; transform:translateY(16px); transition:opacity 0.7s ease, transform 0.7s ease;}
   .reveal.in{opacity:1; transform:none;}
 
   @media(max-width:900px){
-    .hero-grid{grid-template-columns:1fr;} 
-    nav ul{position:fixed; top:0; right:0; height:100svh; width:min(72vw,300px); background:var(--panel); flex-direction:column; justify-content:center; gap:28px; padding:0 40px; transform:translateX(100%); transition:transform 0.4s ease; border-left:1px solid var(--line);} 
-    nav ul.open{transform:translateX(0);} 
-    .nav-toggle{display:block; background:none; border:1px solid var(--gold); color:var(--ivory); width:38px; height:38px;} 
-    .styles-grid{grid-template-columns:repeat(2,1fr);} 
-    .artist-grid{grid-template-columns:1fr; gap:36px;} 
-    .process-list{grid-template-columns:1fr 1fr; row-gap:30px;} 
-    .step{border-left:none; padding:0; border-top:1px solid var(--line); padding-top:18px;} 
-    .step:first-child{border-top:none; padding-top:0;} 
-    .match-grid{grid-template-columns:1fr; gap:14px;} 
-    .match-arrow{display:none;} 
-    .gal-grid{grid-template-columns:repeat(2,1fr);} 
-    .visit-grid{grid-template-columns:1fr; gap:40px;} 
+    .hero-grid{grid-template-columns:1fr;}
+    nav ul{position:fixed; top:0; right:0; height:100svh; width:min(72vw,300px); background:var(--panel); flex-direction:column; justify-content:center; gap:28px; padding:0 40px; transform:translateX(100%); transition:transform 0.4s ease; border-left:1px solid var(--line);}
+    nav ul.open{transform:translateX(0);}
+    .nav-toggle{display:block; background:none; border:1px solid var(--gold); color:var(--ivory); width:38px; height:38px;}
+    .styles-grid{grid-template-columns:repeat(2,1fr);}
+    .artist-grid{grid-template-columns:1fr; gap:36px;}
+    .process-list{grid-template-columns:1fr 1fr; row-gap:30px;}
+    .step{border-left:none; padding:0; border-top:1px solid var(--line); padding-top:18px;}
+    .step:first-child{border-top:none; padding-top:0;}
+    .match-grid{grid-template-columns:1fr; gap:14px;}
+    .match-arrow{display:none;}
+    .gal-grid{grid-template-columns:repeat(2,1fr);}
+    .visit-grid{grid-template-columns:1fr; gap:40px;}
     .utility .wrap{justify-content:center; text-align:center;}
   }
   @media(prefers-reduced-motion: reduce){
-    html{scroll-behavior:auto;} .reveal{transition:none; opacity:1; transform:none;} 
-    .needle-line{animation:none; transform:none;} .marquee-track{animation:none;} 
+    html{scroll-behavior:auto;} .reveal{transition:none; opacity:1; transform:none;}
+    .needle-line{animation:none; transform:none;} .marquee-track{animation:none;}
   }
 </style>
 </head>
@@ -307,6 +307,7 @@
   </div>
 </section>
 
+<!-- Replaced artists section -->
 <section class="artists" id="artists">
   <div class="wrap">
     <div class="section-head reveal">
@@ -314,25 +315,50 @@
       <div class="eyebrow"><span class="fleur">⚜</span> The Roster</div>
       <h2>Meet the artists.</h2>
     </div>
-    <div class="artist-grid reveal">
-      <div class="artist-card">
-        <div class="frame"><div class="ph"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#C9A227" stroke-width="1"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg><span>Artist Photo</span></div></div>
-        <h3>Guzman &ldquo;Bolo&rdquo; Perez</h3>
-        <div class="spec">Portrait &amp; Black-and-Grey Realism · 346K on Instagram</div>
-        <p>High-detail realism, portraits, and large-scale custom pieces — from celebrity and memorial portraits to realistic animal work. Best for clients ready to commit to a big, detailed piece.</p>
-      </div>
-      <div class="artist-card">
-        <div class="frame"><div class="ph"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#C9A227" stroke-width="1"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg><span>Artist Photo</span></div></div>
-        <h3>Sebastian Rojas</h3>
-        <div class="spec">Black-and-Grey &amp; Illustrative · 21K on Instagram</div>
-        <p>Illustrative black-and-grey realism with a storytelling edge — skulls, Florida wildlife, dark and symbolic imagery, and custom narrative compositions.</p>
-      </div>
-      <div class="artist-card">
-        <div class="frame"><div class="ph"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#C9A227" stroke-width="1"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4.4 3.6-8 8-8s8 3.6 8 8"/></svg><span>Artist Photo</span></div></div>
-        <h3>Resident Artist</h3>
-        <div class="spec">Add Specialty</div>
-        <p>Bio and specialty to be added — swap in each remaining artist's real profile and portfolio shots before this page goes live.</p>
-      </div>
+    <div class="artists-grid reveal">
+
+      <!-- Artist 1 -->
+      <article class="artist-card">
+        <div class="card-image">
+          <img
+            src="https://images.squarespace-cdn.com/content/v1/63b5d14ad39b2846524e0f9a/4b68e072-afce-4d87-8f00-1bc1f091c679/So+Yeon_HighRes_BW_FineLineTattoo_Feb2025_ANGELEA-198.jpg"
+            alt="Fine Line & Minimalist Tattoo Specialist"
+            loading="lazy">
+        </div>
+        <div class="card-content">
+          <h3>Fine Line Specialist</h3>
+          <p>Specializing in intricate, delicate line work, single-needle techniques, and minimalist custom art.</p>
+        </div>
+      </article>
+
+      <!-- Artist 2 -->
+      <article class="artist-card">
+        <div class="card-image">
+          <img
+            src="https://sullenclothing.com/cdn/shop/articles/happy-tattoo-artists-at-work.jpg"
+            alt="Custom Design & Illustrative Tattoo Artist"
+            loading="lazy">
+        </div>
+        <div class="card-content">
+          <h3>Illustrative Artist</h3>
+          <p>Expert in custom illustrative concepts, bold color composition, and detailed digital flash creation.</p>
+        </div>
+      </article>
+
+      <!-- Artist 3 -->
+      <article class="artist-card">
+        <div class="card-image">
+          <img
+            src="https://images.stockcake.com/public/7/1/0/710ed024-5bab-434c-a392-2a2ae240c83a/craftsman-s-tattooed-portrait-stockcake.jpg"
+            alt="Traditional & Realism Tattoo Master"
+            loading="lazy">
+        </div>
+        <div class="card-content">
+          <h3>Realism & Traditional Master</h3>
+          <p>Focusing on high-contrast realism, traditional classic styles, and large-scale bespoke cover-ups.</p>
+        </div>
+      </article>
+
     </div>
   </div>
 </section>
